@@ -1,0 +1,69 @@
+body{
+	background-image: url("image2.jpg");
+	font-family:'constantia',sans-serif;
+}
+.main{
+	height:550px;
+	background-color:  rgba(205, 233, 234, 0.97);
+	font-family:'constantia',sans-serif;
+	margin-top: 20px;
+	margin-right: 260px;
+    margin-left: 260px;
+    padding: 30px;
+    font-weight:bold;
+	border-top-left-radius:80px;
+	border-bottom-right-radius:80px;
+	border: 6px solid rgba(6, 234, 150, 1);
+
+
+}
+
+.main button{
+	font-size: 24px;
+	font-weight:bold;
+	color:#5B2C6F  ;
+	background-color: rgba(6, 234, 150, 1);
+	background: #00cb82;
+	min-width: 100px;
+	min-height: 40px;
+	border-top-width:medium;
+	border-right-width:medium;
+	border-bottom-width:medium;
+	border-left-width:medium;
+	box-sizing:border-box;
+}
+.main button: hover{
+	background:#00b073 ;
+	outline:none;
+
+}
+.main button: focus{
+	background:#00b073;
+	outline:none;
+}
+.label input{
+	min-height:31px;
+	box-shadow:none;
+	border-color:#e1e1e1;
+	border-radius: 10px;
+	border:1px solid rgba(6, 234, 150, 1);
+}
+.label select{
+	min-height:31px;
+	box-shadow:none;
+	border-color:#e1e1e1;
+	border-radius: 10px;
+	border:1px solid rgba(6, 234, 150, 1);
+}
+.label: focus input{
+	border-color:#00cb82;
+}
+.label: focus select{
+	border-color:#00cb82;
+}	
+.header{
+
+	font-size:36px;
+	font-weight:bold;
+	color:#0033cc;
+}

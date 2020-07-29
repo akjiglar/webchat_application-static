@@ -1,0 +1,73 @@
+body{
+	background-image: url("image4.jpg");
+}
+.main{
+	height:320px;
+	background-color:  rgba(205, 233, 234, 0.97);
+	font-family:'constantia',sans-serif;
+	border-top-left-radius:40px;
+	border-bottom-right-radius:40px;
+	border: 6px solid rgba(6, 234, 150, 1);
+	margin-right: 260px;
+    margin-left: 260px;
+    padding: 30px;
+    font-weight:bold;
+
+}
+.main button{
+	font-size: 20px;
+	color:#5B2C6F  ;
+	font-weight:bold;
+	font-family:'constantia',sans-serif;
+	background-color: rgba(6, 234, 150, 1);
+	border-top-width:medium;
+	border-right-width:medium;
+	border-bottom-width:medium;
+	border-left-width:medium;
+	min-width: 100px;
+	min-height: 40px;
+	box-sizing:border-box;
+}
+.main button: hover{
+	background:#fff;
+	outline:none;
+}
+.main button: focus{
+	background:#fff;
+	outline:none;
+}
+.header{
+	margin: -30px -30px 5px;
+	padding:30px 30px 10px;
+	background-color: rgba(6, 234, 150, 1);
+	border: 6px solid rgba(205, 233, 234, 0.97);
+	margin-top: 50px;
+	border-top-left-radius:40px;
+	border-bottom-right-radius:40px;
+	margin-right: 260px;
+    margin-left: 260px;
+}
+.header h1{
+	font-size:48px;
+	margin: 0 0 10px;
+	font-family:'constantia',sans-serif;
+	color:#0033cc;
+
+}
+.header h2{
+	margin: 20px 0 15px;
+	font-size: 36px;
+	font-family:'constantia',sans-serif;
+	color: #fff;
+}
+.label input{
+	min-height:31px;
+	box-shadow:none;
+	border-radius: 10px;
+	border:1px solid rgba(6, 234, 150, 1);
+}
+.label: focus input{
+	border-color:#00cb82;
+}
+
+
